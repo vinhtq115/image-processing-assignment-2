@@ -1,6 +1,10 @@
 # image-processing-assignment-2
 Assignment 2 for Advanced Topics in Image Processing
 
+<a target="_blank" href="https://colab.research.google.com/github/vinhtq115/image-processing-assignment-2/blob/master/max_likelihood.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 Satellite image segmentation using Maximum Likelihood Classification
 
 How to use:
