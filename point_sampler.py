@@ -46,6 +46,7 @@ def on_mouse(event, x, y, flags, param):
         if sample_idx >= 10:
             sample_idx = 0
             class_idx += 1
+            print(f"Click on the image to sample points for class {class_idx + 1}. Need 10 points.")
             if class_idx >= 5:
                 print('Done')
                 np.save('position.npy', position)
@@ -55,5 +56,5 @@ def on_mouse(event, x, y, flags, param):
 ui.on_mouse = on_mouse
 img = 'irabu_zhang1.bmp'
 ui(img, flags=cv2.IMREAD_UNCHANGED)
-
+print(f"Click on the image to sample points for class {class_idx + 1}. Need 10 points.")
 ui.wait(delay=0)
